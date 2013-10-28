@@ -18,9 +18,10 @@
  *  If not, see <http://www.gnu.org/licenses/>
  *
  *
- *  duplicitybackup.sh is a script for managaing duplicity backups.
- *  It provivides an easy mechanism for creating, backingup, restoring,
- *  deleting and uploading encrypted backups using duplicity and ncftp
+ *  getPowerUsage.pl is part of the EcoManager project.
+ *  getPowerUsage.pl reads data from a EDF EcoManager electricity monitor
+ *  (Current Cost) device via usb serial port and displays the current 
+ *  power usage.
  *
  *  Project     : EcoManager
  *  Git Repo    : https://github.com/prae5/EcoManager
@@ -30,8 +31,6 @@
  *  Website     : www.paulrae.com
  */
 =cut
-
-# Reads data from a EDF EcoManager (Current Cost) device via usb serial port.
 
 use strict;
 use Device::SerialPort qw( :PARAM :STAT 0.07 );
